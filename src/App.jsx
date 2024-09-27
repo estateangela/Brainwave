@@ -1,4 +1,4 @@
-import ButtonGradient from './assets/svg/ButtonGradient';
+import ButtonGradient from './assets/svg/ButtonGradient'; // 确保路径正确
 import Button from './components/Button';
 
 const App = () => {
@@ -8,13 +8,13 @@ const App = () => {
       Hello world
       </h1>
       <div className='pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden'>
-        <Button className='mt-10' href='#login'>
+        <Button className='mt-20' href='#login'>
           something
         </Button>
       </div>
       <ButtonGradient />
       </>
-  )
-}
+  );
+};
 
 export default App;
