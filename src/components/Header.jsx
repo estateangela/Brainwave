@@ -35,6 +35,13 @@ const Header = () => {
          ))}
         </div>
     </nav>
+    <a href='#signup' className='button hidden mr-8
+    text-n-1/50 transition-color hover:text-n-1 lg:block'>
+      New account
+    </a>
+    <Button className='hidden lg:flex' href='#login'>
+      Sign in
+    </Button>
 
     </div>
     
