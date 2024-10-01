@@ -64,3 +64,10 @@ export const VideoBar = () => {
     </div>
   );
 };
+
+// 确保 PhotoChatMessage 组件已定义
+const PhotoChatMessage = () => {
+    // 组件实现
+};
+
+export default PhotoChatMessage; // 作为默认导出
