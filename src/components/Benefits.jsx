@@ -68,4 +68,4 @@ const Benefits = () => {
   );
 };
 
-export default Benefits; // 确保有默认导出
+export default Benefits;
